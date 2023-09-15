@@ -1,0 +1,32 @@
+nifty-options-analysis/
+├── data/
+│   ├── raw_data/
+│   │   ├── nifty50_data.csv          # Raw data of Nifty50 index
+│   │   ├── options_data.csv         # Raw data of options (open interest, volume, etc.)
+│   │   └── ...
+│   ├── processed_data/
+│   │   ├── cleaned_data.csv         # Cleaned and preprocessed data for analysis
+│   │   ├── transformed_data.csv     # Transformed data for modeling
+│   │   └── ...
+│   └── models/
+│       ├── model_1.pkl              # Saved trained machine learning models
+│       ├── model_2.pkl
+│       └── ...
+├── notebooks/
+│   ├── data_exploration.ipynb       # Notebook for exploring the data
+│   ├── data_preprocessing.ipynb     # Notebook for data cleaning and preprocessing
+│   ├── feature_engineering.ipynb    # Notebook for feature engineering
+│   ├── modeling.ipynb               # Notebook for building and evaluating models
+│   └── ...
+├── reports/
+│   ├── analysis_report.pdf          # Final analysis report
+│   └── ...
+├── src/
+│   ├── data_loader.py               # Script for loading data
+│   ├── data_cleaning.py             # Script for cleaning and preprocessing data
+│   ├── feature_engineering.py       # Script for feature engineering
+│   ├── model_training.py            # Script for training machine learning models
+│   ├── model_evaluation.py          # Script for evaluating models
+│   └── ...
+├── requirements.txt                 # Dependencies and libraries required for the project
+└── README.md 
